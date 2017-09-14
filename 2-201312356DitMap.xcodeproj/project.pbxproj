@@ -13,6 +13,9 @@
 		8507FBBE1F6A1756006E3787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8507FBBD1F6A1756006E3787 /* Assets.xcassets */; };
 		8507FBC11F6A1756006E3787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8507FBBF1F6A1756006E3787 /* LaunchScreen.storyboard */; };
 		8507FBCF1F6A191A006E3787 /* ViewPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8507FBCE1F6A191A006E3787 /* ViewPoint.swift */; };
+		8507FBD11F6A21D9006E3787 /* onepun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8507FBD01F6A21D9006E3787 /* onepun.jpg */; };
+		8507FBD41F6A22DD006E3787 /* onepun2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8507FBD21F6A22DD006E3787 /* onepun2.png */; };
+		8507FBD51F6A22DD006E3787 /* ss2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8507FBD31F6A22DD006E3787 /* ss2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8507FBC01F6A1756006E3787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8507FBC21F6A1756006E3787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8507FBCE1F6A191A006E3787 /* ViewPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPoint.swift; sourceTree = "<group>"; };
+		8507FBD01F6A21D9006E3787 /* onepun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = onepun.jpg; sourceTree = "<group>"; };
+		8507FBD21F6A22DD006E3787 /* onepun2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onepun2.png; sourceTree = "<group>"; };
+		8507FBD31F6A22DD006E3787 /* ss2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ss2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				8507FBBF1F6A1756006E3787 /* LaunchScreen.storyboard */,
 				8507FBC21F6A1756006E3787 /* Info.plist */,
 				8507FBCE1F6A191A006E3787 /* ViewPoint.swift */,
+				8507FBD01F6A21D9006E3787 /* onepun.jpg */,
+				8507FBD21F6A22DD006E3787 /* onepun2.png */,
+				8507FBD31F6A22DD006E3787 /* ss2.jpg */,
 			);
 			path = "2-201312356DitMap";
 			sourceTree = "<group>";
@@ -126,8 +135,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8507FBD51F6A22DD006E3787 /* ss2.jpg in Resources */,
 				8507FBC11F6A1756006E3787 /* LaunchScreen.storyboard in Resources */,
+				8507FBD41F6A22DD006E3787 /* onepun2.png in Resources */,
 				8507FBBE1F6A1756006E3787 /* Assets.xcassets in Resources */,
+				8507FBD11F6A21D9006E3787 /* onepun.jpg in Resources */,
 				8507FBBC1F6A1756006E3787 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +315,7 @@
 				8507FBC71F6A1756006E3787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

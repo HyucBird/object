@@ -47,9 +47,30 @@ class ViewController: UIViewController, MKMapViewDelegate {
         } else {
             annotationView?.annotation = annotation
         }
-        
+        if (annotation.title! == "시민공원")
+        {
+            let leftIconView = UIImageView(frame: CGRect(x: 0, y: 0, width: 53, height: 53))
+            leftIconView.image = UIImage(named:"onepun.jpg" )
+            annotationView?.leftCalloutAccessoryView = leftIconView
+            annotationView?.pinTintColor = UIColor.green
+        }
+        if (annotation.title! == "동의과학대학교")
+        {
+            let leftIconView = UIImageView(frame: CGRect(x: 0, y: 0, width: 53, height: 53))
+            leftIconView.image = UIImage(named:"onepun2.png" )
+            annotationView?.leftCalloutAccessoryView = leftIconView
+            annotationView?.pinTintColor = UIColor.yellow
+        }
+        if (annotation.title! == "송상현광장")
+        {
+            let leftIconView = UIImageView(frame: CGRect(x: 0, y: 0, width: 53, height: 53))
+            leftIconView.image = UIImage(named:"ss2.jpg" )
+            annotationView?.leftCalloutAccessoryView = leftIconView
+            annotationView?.pinTintColor = UIColor.blue
+        }
         return annotationView
         
+       
     }
     
     // callout accessary를 눌렀을때 alert View 보여줌
