@@ -52,7 +52,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
             let leftIconView = UIImageView(frame: CGRect(x: 0, y: 0, width: 53, height: 53))
             leftIconView.image = UIImage(named:"onepun.jpg" )
             annotationView?.leftCalloutAccessoryView = leftIconView
-            annotationView?.pinTintColor = UIColor.green
+            annotationView?.pinTintColor = UIColor.black
         }
         if (annotation.title! == "동의과학대학교")
         {
